@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Моя визитка</title>
+	<title>Контакты</title>
 	<link rel="stylesheet" href="style.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Fredoka+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Philosopher:400,400italic,700,700italic|Roboto:400,500,700,900|Ubuntu:400,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
@@ -34,15 +34,39 @@
 	</div>
 	
 </div>
-<img src="img/face.png" alt="#" class="face">
-<div class="kontent">
-	<h2>Создание сайтов под ключ</h2>
-	<div class="clear"></div>
-	<p>Сайт – это лицо Вашей компании. Именно он знакомит посетителей с продукцией/услугами, повышает узнаваемость бренда и продает. Качественно сделанный и наполненный сайт будет продавать Ваши товары или услуги лучше рядовых менеджеров по продажам.</p>
+
+<div class="kontent2">
+<h1 style="margin:10px 10px 10px 150px;">Сделать заказ</h1>
+<form method="post" action="form.php">
+	<div>
+		<label style="margin:10px 48px 10px 150px;">Имя</label><input style="background-color: #F6E8A6;" placeholder="Ваше имя" type="text">
+	</div><br>
+	<div>
+		<label style="margin:10px 20px 10px 150px;">Телефон</label><input style="background-color: #F6E8A6;" placeholder="Телефон" type="text">
+	</div><br>
+	<div>
+		<label style="margin:10px 40px 10px 150px;">Email</label><input style="background-color: #F6E8A6;" placeholder="Ваш email" type="text">
+	</div><br>
+	<div>
+		<label style="margin:10px 26px 10px 150px;">Страна</label>
+		<select style="background-color: #F6E8A6;" name="Ваша страна" >
+			<option value="RU">Россия</option>
+			<option value="UA">Украина</option>
+			<option value="BLR">Беларусь</option>
+		</select>
+	</div><br>
+	<div>
+		<label style="margin:10px 20px 10px 150px;">Ваш заказ</label><br>
+		<textarea placeholder="Введите данные" style="margin:10px 20px 10px 150px; background-color: #F6E8A6;" name="Ваши пожелания" cols="45" rows="7"></textarea>
+	</div>
+	<input style="margin:10px 10px 10px 150px;" value="Отправить" type="submit">
+</form>
+	
 </div>
 
 
-<div class="footer">
+
+<div class="footer2">
 	<h2>Профессионально, быстро, эффективно!</h3>
 </div>
 <div class="bottom"></div>
