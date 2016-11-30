@@ -5,3 +5,6 @@ loge/
 
 #txt-files
 docs/*.txt
+
+#גסו פאיכû zip
+*.zip
